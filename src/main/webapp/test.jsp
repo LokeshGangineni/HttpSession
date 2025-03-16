@@ -6,9 +6,8 @@
 </head>
 <body>
 <form action="loki" method="post">
-<h1>Hi Welcome <%=session.getAttribute("namekey") %> </h1>
+<h1>Hi Welcome  <%=session.getAttribute("namekey") %> </h1>
 <button>submit</button>
 </form>
-
 </body>
 </html>
